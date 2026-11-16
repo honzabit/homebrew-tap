@@ -1,7 +1,6 @@
 class Whoq < Formula
   desc "RDAP-first WHOIS for humans and agents"
   homepage "https://github.com/honzabit/whoq"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
