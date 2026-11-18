@@ -5,23 +5,23 @@ class Whoq < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/honzabit/whoq/releases/download/v0.1.1/whoq-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "3c22487a713fc38675c5061c7bc308bec6f7859d9935165c5e81549d85917733"
+      url "https://github.com/honzabit/whoq/releases/download/v0.1.2/whoq-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "c76f3dd435aef8e1f18cc80d8e412acb6ea6504f96d96f9a13b872f2f9a6d74e"
     end
     on_intel do
-      url "https://github.com/honzabit/whoq/releases/download/v0.1.1/whoq-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a711ec8e027c90ea954773cce1717bafb99fa4978b07756418b70226701c8a92"
+      url "https://github.com/honzabit/whoq/releases/download/v0.1.2/whoq-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "edcd1d74196d9e03215e8e26fbed34b1289f28dcce5015f196a8e1abacd2b325"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/honzabit/whoq/releases/download/v0.1.1/whoq-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "179a015bb5ca486edbe0154932876c7ddf41299e4dc211bfc68b06f7a517ff29"
+      url "https://github.com/honzabit/whoq/releases/download/v0.1.2/whoq-v0.1.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9ce3dca2edca77460a4c6e30e4b3f25ae73a3ad2b908656bce6885cd4a037d9e"
     end
     on_intel do
-      url "https://github.com/honzabit/whoq/releases/download/v0.1.1/whoq-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "bccd148ef6d1021a574a16bd75dd5b5a37ddfe2b773c3cb74e6fa3a424c666ac"
+      url "https://github.com/honzabit/whoq/releases/download/v0.1.2/whoq-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a6f273152be03521f3dc36f2393d5b710d6d1329723f798491c17b08c815d242"
     end
   end
 
